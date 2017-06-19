@@ -1,5 +1,7 @@
 <?php 
 
+	// METODOS ESTATICOS
+
 	class Documento {
 		private $cpf;
 

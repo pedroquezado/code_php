@@ -1,5 +1,7 @@
 <?php 
 
+	// PROPIEDADES E METODOS
+
 	class Carro {
 		private $modelo;
 		private $motor;

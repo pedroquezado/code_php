@@ -1,5 +1,7 @@
 <?php 
 
+	// ESTRUTURA DE CLASSE
+
 	class Pessoa {
 		public $nome;
 
