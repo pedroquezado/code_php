@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sett",
+				"setTitulo"
+			],
+			[
+				"setT",
+				"setTexto"
+			],
+			[
+				"texto",
+				"texto_noticia"
+			],
+			[
+				"Noti",
+				"NoticiaPrincipal"
+			],
+			[
+				"exi",
+				"exibir"
+			],
+			[
+				"My",
+				"MyOtherClass"
+			],
+			[
+				"__",
+				"__CLASS__"
+			],
+			[
+				"getPro",
+				"getProtected"
+			],
+			[
+				"getP",
+				"getProp"
+			],
+			[
+				"prop",
+				"prop1"
+			],
+			[
+				"pro",
+				"protegida"
+			],
+			[
+				"array",
+				"array_numb"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"box",
+				"box2"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ca",
+				"carro"
+			],
+			[
+				"new",
+				"newAno"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/code_php/exerc/ex-01.php",
+			"settings":
+			{
+				"buffer_size": 3193,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 738,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "class/Noticia.class.php",
+			"settings":
+			{
+				"buffer_size": 396,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "class/PrincipalNoticia.class.php",
+			"settings":
+			{
+				"buffer_size": 521,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/code_php",
+		"/C/xampp/htdocs/code_php/exerc",
+		"/C/xampp/htdocs/code_php/exerc/autoload",
+		"/C/xampp/htdocs/code_php/poo"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/code_php/exerc/class/PrincipalNoticia.class.php",
+		"/C/xampp/htdocs/code_php/exerc/class/Noticia.class.php",
+		"/C/xampp/htdocs/code_php/exerc/ex-03.php",
+		"/C/xampp/htdocs/code_php/exerc/ex-02.php",
+		"/C/Users/ATENDIMENTO02/Desktop/ResolvidoCondomínio_v1.5.1_apkpure.com_source_from_JADX/AndroidManifest.xml",
+		"/C/Users/ATENDIMENTO02/Desktop/ResolvidoCondomínio_v1.5.1_apkpure.com_source_from_JADX/assets/www/VSBuildInfo.xml",
+		"/C/Users/ATENDIMENTO02/Desktop/ResolvidoCondomínio_v1.5.1_apkpure.com_source_from_JADX/assets/www/css/index.css",
+		"/C/Users/ATENDIMENTO02/Desktop/ResolvidoCondomínio_v1.5.1_apkpure.com_source_from_JADX/assets/www/css/ionic.css",
+		"/C/Users/ATENDIMENTO02/Desktop/ResolvidoCondomínio_v1.5.1_apkpure.com_source_from_JADX/assets/www/data/modelos_montadora_44.json",
+		"/C/Users/ATENDIMENTO02/Desktop/config.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/soundmix/Rádio Sound Mix/www/app.php",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/soundmix/Rádio Sound Mix/plugins/cordova-plugin-console/plugin.xml",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/assets/www/index.html",
+		"/C/xampp/htdocs/app/assets/js/jquery.xdomainajax.js",
+		"/C/xampp/htdocs/app/assets/js/loadSond.js",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/assets/www/css/style_v1.css",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/assets/www/css/app.css",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/assets/www/css/style.css",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/original/AndroidManifest.xml",
+		"/C/Users/ATENDIMENTO02/Desktop/R_dioSoundMix-debug_source_from_JADX/AndroidManifest.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/config.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/soundmix/Rádio Sound Mix/config.xml",
+		"/C/Users/ATENDI~1/AppData/Local/Temp/Rar$DRa0.486/config.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/CHANGELOG.md",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/CONTRIBUTING.md",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/README.md",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/hooks/README.md",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/soundmix/Rádio Sound Mix/platforms/browser/www/config.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/teste/plugins/cordova-plugin-media/plugin.xml",
+		"/C/Users/ATENDIMENTO02/Documents/apps/teste/soundmix/Rádio Sound Mix/www/index.html",
+		"/C/xampp/htdocs/app/ex.php",
+		"/E/rucoyonline/wfox-admin/assets/css/style.css",
+		"/C/xampp/htdocs/app/assets/style/animation.css",
+		"/C/xampp/htdocs/app/index.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"\t ",
+			"65",
+			"\";\n",
+			"/img/svg/",
+			"\t\t\t\t\t\t\t\t",
+			"   \t",
+			"    ",
+			"access",
+			"content",
+			"\t\t\t\t\t\t\t\t\t",
+			"    ",
+			");\n",
+			"';\n",
+			"320px",
+			"\t\t\t\t\t\t\t\t\t\t",
+			"    ",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\t",
+			"/image/loade/",
+			"",
+			"\t",
+			"",
+			"\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\xampp\\htdocs\\code_php"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/code_php/exerc/ex-01.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								718,
+								731
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "class/Noticia.class.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "class/PrincipalNoticia.class.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
