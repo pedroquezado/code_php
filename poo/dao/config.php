@@ -1,11 +1,12 @@
 <?php 
-	header("Content-type: text/html; charset=utf-8");
-	
-	function __autoload($nameClass) {
+
+	function searchClass($nameClass) {
 		$directory = "class".DIRECTORY_SEPARATOR.$nameClass.".class.php";
-		if(file_exists($directory)) {
+		if(file_exists($directory)){
 			require_once($directory);
 		}
 	}
+
+	spl_autoload_register("searchClass");
 
 ?>

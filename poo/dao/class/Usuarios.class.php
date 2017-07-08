@@ -1,97 +1,86 @@
 <?php 
 
 	class Usuarios {
-		private $id;
-		private $login;
-		private $senha;
-		private $data;
-		private $idade;
+		private $uid;
+		private $ulogin;
+		private $usenha;
+		private $ucaccount;
 
-		public function setId($value) {
-			$this->id = $value;
+		public function setId($value){
+			$this->uid = $value;
 		}
 
 		public function getId() {
-			return $this->id;
+			return $this->uid;
 		}
 
 		public function setLogin($value) {
-			$this->login = $value;
+			$this->ulogin = $value;
 		}
 
 		public function getLogin() {
-			return $this->login;
+			return $this->ulogin;
 		}
 
-		public function setSenha($value) {
-			$this->senha = $value;
+		public function setSenha($value){
+			$this->usenha = $value;
 		}
 
 		public function getSenha() {
-			return $this->senha;
+			return $this->usenha;
 		}
 
-		public function setData($value) {
-			$this->data = $value;
+		public function setAccount($value) {
+			$this->ucaccount = $value;
 		}
 
-		public function getData() {
-			return $this->data;
-		}
-
-		public function setIdade($value) {
-			$this->idade = $value;
-		}
-
-		public function getIdade() {
-			return $this->idade;
+		public function getAccount() {
+			return $this->ucaccount;
 		}
 
 		public function loadById($id) {
-			$stmt = new SQL;
-			$rows = $stmt->select("SELECT * FROM tb_usuarios WHERE uid=:id ORDER BY uid", array(
+			$sql = new SQL;
+			$rows = $sql->select("SELECT * FROM tb_usuarios WHERE uid=:id", array(
 				":id" => $id
 			));
-			foreach($rows as $row) {
-				$this->setId($row['uid']);
-				$this->setLogin($row['ulogin']);
-				$this->setSenha($row['usenha']);
-				$this->setData(new DateTime($row['udcadatro']));
-				$this->setIdade($row['uidade']);
+
+			if($rows){
+				foreach($rows as $row) {
+					$this->setId($row['uid']);
+					$this->setLogin($row['ulogin']);
+					$this->setSenha($row['usenha']);
+					$this->setAccount($row['ucaccount']);
+				}
 			}
 		}
 
-		public function getList():array {
-			$stmt = new SQL;
-			return $stmt->select("SELECT * FROM tb_usuarios");
+		public static function getList() {
+			$sql = new SQL;
+			return $sql->select("SELECT * FROM tb_usuarios ORDER BY uid");
 		}
 
 		public static function search($q) {
-			$stmt = new SQL;
-			return $stmt->select("SELECT * FROM tb_usuarios WHERE ulogin LIKE :login ORDER BY uid", array(
-				":login" => "%".$q."%"
+			$sql = new SQL;
+			$sql->select("SELECT * FROM tb_usuarios WHERE ulogin LIKE :q ORDER BY uid", array(
+				":q" => "%".$q."%"
 			));
 		}
 
-		public function delete() {
-			$stmt = new SQL;
-			$stmt->query("DELETE FROM tb_usuarios WHERE uid=:id", array(
-				":id" => $this->getId()
+		public static function delete($id) {
+			$sql = new SQL;
+			$sql->query("DELETE FROM tb_usuarios WHERE uid = :id", array(
+				":id" => $id
 			));
-
-			if($stmt){
-				$this->setId(0);
-				$this->setLogin("");
-				$this->setSenha("");
-				$this->setData("");
-				$this->setIdade("");
-			}
 		}
 
-		public function insert($values) {
-			$stmt = new SQL;
-			$stmt->query("INSERT INTO tb_usuarios (ulogin, usenha, uidade) VALUES (:login,:senha,:idade)", $values);
-			return $stmt;
+		public static function insert($parameters = array()){
+			$sql = new SQL;
+			$sql->query("INSERT INTO tb_usuarios (ulogin, usenha) VALUES (:ulogin, :usenha)", $parameters);
+		}
+
+		public static function update($parameters = array()) {
+			$sql = new SQL;
+			$sql->query("UPDATE tb_usuarios SET ulogin = :login, usenha = :senha WHERE uid = :id", $parameters);
 		}
 
 		public function __toString() {
@@ -99,8 +88,7 @@
 				"uid" => $this->getId(),
 				"ulogin" => $this->getLogin(),
 				"usenha" => $this->getSenha(),
-				"udcadatro" => $this->getData()->format("d-m-Y H:i"),
-				"uidade" => $this->getIdade()
+				"ucaccount" => $this->getAccount()
 			));
 		}
 	}
